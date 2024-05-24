@@ -1,0 +1,158 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Sintony', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.log-form {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #0070c03a;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.button, .button-dis, .button-back{
+    padding: 10px;
+    border : none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+.button {
+    width: 100%;
+    background-color: #0070c0;
+    margin-bottom: 10px;
+}
+
+.button-dis {
+    width: 100%;
+    background-color: #bc0000;
+    margin-bottom: 0px;
+}
+
+.button-back {
+    width: 20%;
+    background-color: #5e9020;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #004268;
+}
+
+.button-dis:hover {
+    background-color: #620000;
+}
+
+.button-back:hover {
+    background-color: #2a410e;
+}
+
+.success-message, .error-message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.logo {
+    max-width: 45%;
+    margin-bottom: 20px;
+}
+
+.home-logo {
+    max-width: 20%;
+    margin-bottom: 10px;
+}
+
+.centered-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(30, 20px);
+    grid-template-rows: repeat(30, 20px);
+    gap: 1px;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+.color-swatch {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 5px solid #b3b3b3;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+.grid-title{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+#palette{
+    margin-bottom: 5px;
+    
+}
+p {
+    margin-top: 20px;
+    color: #555;
+    font-size: 14px;
+}
+.selected {
+    border-color: #0070c0;
+}
